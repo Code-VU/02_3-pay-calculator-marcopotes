@@ -3,6 +3,13 @@ def calculatePay():
     print("calculating pay")
     # This first line is provided for you
     hrs = input("Enter Hours:")
+    Rate = input("Enter rate:")
+
+    #Convert input strings into floats
+    hrs = float(hrs)
+    Rate = float(Rate)
+
+    print (hrs * Rate)
 
     # end assignment
 
